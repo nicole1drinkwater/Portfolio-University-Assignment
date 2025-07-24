@@ -11780,3 +11780,67 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+
+
+
+
+
+
+      
+/* --- Portfolio Enhancement Styles --- */
+
+/* 1. Make portfolio items look like 'cards' */
+#portfolio .portfolio-item {
+    background-color: #ffffff; /* Give each item a white background */
+    border-radius: 0.5rem;      /* Soft, rounded corners */
+    overflow: hidden;           /* Ensures content respects the rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Subtle shadow for depth */
+    transition: all 0.3s ease-in-out; /* Smooth transition for the hover effect */
+    height: 100%; /* Make all cards in a row the same height */
+    display: flex;
+    flex-direction: column;
+}
+
+/* 2. Add a 'lift and glow' effect on hover */
+#portfolio .portfolio-item:hover {
+    transform: translateY(-8px); /* Lifts the card up */
+    box-shadow: 0 12px 24px rgba(0,0,0,0.1); /* Stronger shadow for a 'glow' effect */
+}
+
+/* 3. Create a consistent container for all portfolio images */
+.portfolio-img-container {
+    background-color: #f8f9fa; /* A very light grey, matching the section background */
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px; /* Give all image containers a fixed height for consistency */
+}
+
+/* Ensure images inside the container fit nicely */
+.portfolio-img-container img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+/* 4. Improve the text styling within the card */
+#portfolio .portfolio-caption {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #fff;
+    flex-grow: 1; /* Allows caption to fill remaining space in the card */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Make the subheading text easier to read */
+#portfolio .portfolio-caption .portfolio-caption-subheading {
+    font-weight: 500;
+    color: #6c757d; /* A slightly darker grey for better contrast */
+}
+
+    
