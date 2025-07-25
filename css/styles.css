@@ -11417,7 +11417,8 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #e9ecef;
+  /*color: #e9ecef;*/
+  color: #fff;
   background-image: url("../assets/img/hero/keyboard.avif");
   background-repeat: no-repeat;
   background-attachment: scroll;
