@@ -64,6 +64,10 @@
   --bs-body-bg: #fff;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 *,
 *::before,
 *::after {
