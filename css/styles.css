@@ -11417,15 +11417,19 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #e9ecef; 
-  background-image: url("../assets/img/hero/keyboard.avif");
+  color: #fff;
+  background-image: url("../assets/img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  position: relative; 
-  z-index: 0;         
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 header.masthead::before {
   content: '';
   position: absolute;
