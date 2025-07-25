@@ -75,6 +75,41 @@
     display: block;
 }
 
+/* In your timeline.css file */
+@media (max-width: 767px) {
+  .timeline-page:after {
+    left: 20px;
+  }
+
+  .timeline-page .timeline-item .duration {
+    text-align: left !important;
+    margin-left: 50px !important;
+  }
+
+  .timeline-page .timeline-item .duration-right,
+  .timeline-page .timeline-item .date-label-left {
+    float: none;
+    text-align: left !important;
+    margin: 0 0 0 50px;
+  }
+
+  .timeline-page .timeline-item .event.event-description-left,
+  .timeline-page .timeline-item .event.event-description-right {
+    text-align: left !important;
+    margin: 0 0 0 50px;
+  }
+
+  .timeline-page .timeline-item .duration-right:before,
+  .timeline-page .timeline-item .date-label-left:before {
+    left: -28px;
+  }
+
+  .timeline-page .timeline-item .duration-right:after,
+  .timeline-page .timeline-item .date-label-left:after {
+    left: -19px;
+  }
+}
+
 @media (max-width: 575px) {
     .timeline-page {
         margin-left: 18px;
