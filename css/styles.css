@@ -64,8 +64,9 @@
   --bs-body-bg: #fff;
 }
 
-body {
-    overflow-x: hidden;
+.row {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 *,
