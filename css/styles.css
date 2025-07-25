@@ -64,12 +64,6 @@
   --bs-body-bg: #fff;
 }
 
-html,
-body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
 *,
 *::before,
 *::after {
